@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Bruno+Ace&family=Bruno+Ace+SC&family=Carter+One&family=Caveat&family=Caveat+Brush&family=Goldman:wght@400;700&family=Lora:wght@500&family=Montserrat:wght@300;400;700&family=Nunito:wght@200;400;700;900&family=Patua+One&family=Permanent+Marker&display=swap');
+
+body{
+    background-color: rgb(77, 133, 133);
+    /* background-color: #846c8b; */
+}
+
+h1 {
+    margin: 2rem auto;
+    font-family: 'Bruno Ace', sans-serif;
+    color: rgb(243 209 253);
+    text-shadow: -2px -2px 1px #000;
+    font-weight: 600;
+}
+
+thead {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    vertical-align: middle !important;
+    color: rgb(243 209 253);
+}
+
+header {
+    background: rgb(78, 78, 78) !important;
+}
+
+button, a {
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 25px;
+    font-weight: 700 !important;
+}
+
+td{
+    color: rgb(243 209 253);
+}
+
+td .btn-danger, td .btn-primary{
+    min-width: 88px !important;
+    /* background-color: rgba(0, 0, 255, 0.781); */
+    /* justify-content: space-between; */
+}
+
+.celda_imagen-btn{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.color_botones{
+    background-color: #26b170e0;
+    border: none;
+}
+
+.color_botones:hover{
+    background-color: #25925fb9 !important;
+}
+
+.color_botones-eliminar{
+    background: #846c8b;
+    color: rgb(243 209 253);
+
+}
+
+.color_botones-eliminar:hover{
+    background: #846c8b;
+    color:rgb(243 209 253) !important;
+    border-color: #846c8b !important;
+}
+
+.espacio_entre_botones{
+    margin: 1% 2%;
+}
+/* .espacio_entre_botones:hover{
+    background-color: #0ea75f !important;
+} */
